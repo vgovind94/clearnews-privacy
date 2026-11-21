@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClearNews — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #E9EEF5;
+      --card: #F6F8FC;
+      --text: #0F172A;
+      --muted: #475569;
+      --accent: #0D9488;
+      --border: #CBD5E1;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0F1216;
+        --card: #171B22;
+        --text: #F8FAFC;
+        --muted: #94A3B8;
+        --accent: #14B8A6;
+        --border: #2E3846;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px 16px 48px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 32px 28px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    }
+    .brand {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      margin: 0 0 4px;
+    }
+    .tagline {
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 14px;
+      margin: 0 0 20px;
+    }
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+      margin: 0 0 6px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    h2 {
+      font-size: 16px;
+      color: var(--accent);
+      margin: 22px 0 8px;
+    }
+    p, li {
+      font-size: 15px;
+      color: var(--text);
+      margin: 0 0 10px;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 0 0 12px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .footer {
+      margin-top: 28px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="brand">CLEARNEWS</div>
+    <p class="tagline">The Full Picture, Clearly Unfolded</p>
+
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+      App: <strong>ClearNews</strong> (<code>org.clearfold.news</code>) &bull; Effective Date: November 2026
+    </div>
+
+    <p>
+      ClearNews is built from the ground up as a privacy-first, on-device RSS news reader.
+      We do not collect, sell, rent, or share your personal information.
+    </p>
+
+    <h2>1. Zero Personal Data Collection</h2>
+    <p>
+      ClearNews does not require or offer account registration, logins, or user profiles.
+      The app contains <strong>zero</strong> advertising SDKs, third-party analytics trackers,
+      telemetry SDKs, crash-reporting trackers, or behavioral profiling tools.
+    </p>
+
+    <h2>2. 100% On-Device Storage &amp; Processing</h2>
+    <p>
+      All of your settings and reading data stay strictly on your Android device (stored locally
+      via Android Room SQLite and Jetpack DataStore), including:
+    </p>
+    <ul>
+      <li>Selected news regions, followed topics, and reading lens preferences</li>
+      <li>Favorite channels, muted channels, custom RSS feeds, and blocked keywords</li>
+      <li>Bookmarked stories and cached RSS headlines for fast offline viewing</li>
+    </ul>
+    <p>
+      Multi-source story clustering, political spectrum comparisons, and extractive Pulse Summaries
+      are computed entirely locally on your device. You can clear cached images or rebuild the
+      local feed cache at any time from <strong>Settings &rarr; Local Cache &amp; Fast Loading</strong>,
+      or remove all data by uninstalling the app.
+    </p>
+
+    <h2>3. Direct Network Requests to News Publishers</h2>
+    <p>
+      ClearNews connects directly from your device to public RSS and Atom feeds provided by news
+      publishers (and any custom RSS feeds you add) to retrieve headlines, summaries, and images.
+      When you open a full article, ClearNews routes you directly to the publisher's website via
+      Chrome Custom Tabs. ClearNews does not operate a tracking proxy or collect your browsing history.
+    </p>
+
+    <h2>4. No Location Tracking &amp; Minimal Permissions</h2>
+    <p>
+      ClearNews never requests GPS, location, camera, microphone, or contacts permissions. News
+      regions are chosen manually by you inside the app. Optional notification permission
+      (<code>POST_NOTIFICATIONS</code>) is used solely to deliver local, on-device breaking news
+      alerts when you are not actively using the app.
+    </p>
+
+    <h2>5. Publisher Attribution, Non-Affiliation &amp; Opt-Out</h2>
+    <p>
+      ClearNews is an independent RSS reader and is not affiliated with, endorsed by, or sponsored
+      by any news publisher listed in the app. All publisher trademarks, headlines, and articles
+      belong to their respective owners. Channel bias and factuality metadata are matched against
+      the open-source News Media Bias &amp; Factuality Dataset (Idiap Research Institute / MBFC,
+      Apache-2.0 License).
+    </p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      ClearNews is intended for general audiences aged 13 and older and does not knowingly collect
+      personal information from anyone, including children under 13.
+    </p>
+
+    <h2>7. Contact Us</h2>
+    <p>
+      For general support, privacy inquiries, or channel requests, contact:
+      <a href="mailto:support.clearnews@gmail.com">support.clearnews@gmail.com</a>.
+    </p>
+    <p>
+      For news publisher feed updates or opt-out requests, contact:
+      <a href="mailto:govind.vij.26@gmail.com">govind.vij.26@gmail.com</a> or
+      <a href="mailto:support.clearnews@gmail.com">support.clearnews@gmail.com</a>.
+    </p>
+
+    <div class="footer">
+      &copy; 2026 ClearNews &bull; Privacy First &bull; Zero Data Collection
+    </div>
+  </main>
+</body>
+</html>
