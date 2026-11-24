@@ -1,0 +1,44 @@
+PROPRIETARY SOFTWARE LICENSE — CLEARFOLD
+
+Copyright © 2026 Govind Vijayakumar. All Rights Reserved.
+
+Clearfold ("Clearfold: Multi-Angle News", Android package `org.clearfold.news`,
+formerly developed under the working name ClearNews) is proprietary, closed-source
+software owned solely by Govind Vijayakumar. Clearfold is currently distributed
+free of charge and without advertising; the copyright holder reserves all
+commercial and non-commercial rights.
+
+1. EXCLUSIVE OWNERSHIP
+All original human-authored source code, software architecture, algorithms,
+database schemas, UI/UX code, layouts, copy, and documentation in this repository
+are the exclusive intellectual property of Govind Vijayakumar, except where
+third-party open-source components or public datasets are expressly noted in
+THIRD_PARTY_NOTICES.md.
+
+2. LICENSE & RESTRICTIONS
+End users are granted a limited, non-exclusive, non-transferable, revocable
+license to install and use official Clearfold releases solely for personal,
+non-commercial news reading. Without prior express written permission from the
+copyright holder, no portion of this software or its compiled packages (`.apk` /
+`.aab`) may be copied, reproduced, modified, redistributed, resold, sublicensed,
+repackaged, mirrored, decompiled, reverse-engineered, or used to train machine
+learning or artificial intelligence models, except to the limited extent permitted
+by mandatory applicable law.
+
+3. AUTHORIZED DISTRIBUTION
+Official builds of Clearfold are distributed exclusively through authorized
+channels (including Google Play under package ID `org.clearfold.news`).
+
+4. THIRD-PARTY CONTENT & OPEN-SOURCE COMPONENTS
+- All news headlines, RSS excerpts, article thumbnails, and editorial cartoons
+  displayed in Clearfold remain the sole intellectual property of their respective
+  publishers and cartoonists.
+- Open-source libraries and datasets incorporated into Clearfold remain governed
+  by their respective licenses as detailed in THIRD_PARTY_NOTICES.md.
+
+5. RELATED DOCUMENTS & CONTACT
+- Ownership, Attribution & Takedown Policy: OWNERSHIP_AND_INTELLECTUAL_PROPERTY.md
+- Open-Source & Dataset Notices: THIRD_PARTY_NOTICES.md
+- Privacy Policy: playstore-upload/privacy-policy.html
+- Publisher Opt-Out / Copyright Takedown / Support: support.clearnews@gmail.com
+- Proprietor Licensing & IP Inquiries: govind.vij.26@gmail.com
